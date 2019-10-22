@@ -1,0 +1,29 @@
+@import '../../styles/variable-mixins.scss';
+
+.book-card{
+    margin: 20px 20px;
+    min-height: 300px;
+    width: 26vw;
+    min-width: 250px;
+    cursor: pointer;
+    flex-direction: column;
+    
+    .book-img{
+        height: 300px;
+        width: 200px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }  
+
+    .title{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .author{
+        color: #646464;
+        font-size: 20px;
+    }
+    
+}
+

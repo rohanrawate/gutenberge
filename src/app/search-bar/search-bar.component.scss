@@ -1,0 +1,41 @@
+.search-input{
+    height: 25px;
+    width: 100%;
+}
+
+.search-icon{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 24px;
+    right: 25%;
+    margin-right: 5px;
+}
+
+::ng-deep .mat-form-field{
+  width: 50vw;
+}
+
+::ng-deep .mat-form-field-placeholder{
+
+    color:white !important;
+  }
+  
+  ::ng-deep .mat-focused .mat-form-field-placeholder{
+  
+    color:white !important;
+  }
+
+  ::ng-deep .mat-form-field-label{
+    color:white !important;
+  }
+
+  ::ng-deep .mat-form-field-underline .mat-form-field-ripple{
+
+    background-color:white !important;
+  }
+  
+  ::ng-deep .mat-form-field-underline{
+  
+    background-color:white !important;
+  }

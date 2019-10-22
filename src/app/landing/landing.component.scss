@@ -1,0 +1,26 @@
+@import '../../styles/variable-mixins.scss';
+
+.landing-container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: visible;
+
+    .category{
+        color: #3D4397;
+        font-weight: normal;
+        margin-left: 50px;
+    }
+    
+    .books-container{
+        gb-infinite-scroll{
+            height: 400px;
+            overflow-y: auto;
+        }
+        .no-result{
+            height: 60vh;
+        }
+    }
+
+}
+
+

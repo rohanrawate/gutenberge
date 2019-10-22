@@ -1,0 +1,20 @@
+<gb-header [filterControl]="searchText"></gb-header>
+<div class="landing-container">
+    <h1 class="category">{{ categoryHeading }}</h1>
+    <div class="books-container">
+        <gb-infinite-scroll (scrolled)="onScroll()">
+            <div class="scroll-content">
+                <div class="flex w-100 h-100"  style="flex-wrap: wrap;">
+                    <div *ngFor="let book of books">
+                        <gb-book-card [book]="book"></gb-book-card>
+                    </div>
+                </div>
+            </div>
+    
+            <div *ngIf="books.length === 0" class="no-result flex items-center justify-center"> 
+                No Results Found
+            </div>
+        </gb-infinite-scroll>
+    </div>
+</div>
+

@@ -1,0 +1,34 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #5E57E7;
+    color: white;
+
+    ul {
+        list-style-type: none;
+    }
+
+    .categories{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        li{
+            height: 50px;
+            background: #4E4BCB;
+            margin: 15px 0;
+            width: 90vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+
+            .title{
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+
+
